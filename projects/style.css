@@ -95,3 +95,36 @@ footer{
 footer p{
     color: #E39C0E;
 }
+
+@media only screen and (max-width: 1368px){
+    /* Nav bar */
+    #mynav #list {
+        margin-left: 5.5%;
+    }
+
+    #mynav #cv {
+        margin-left: 5.5%;
+    }
+
+    #logo h1 {
+        margin-right: 14.2%;
+    }
+
+    /* Footer of the page*/
+    footer i {
+        font-size: 17.75px;
+        margin: 2.1%;
+
+    }
+    footer p {
+        font-size: 71%;
+
+    }
+    footer {
+        width: 25%;
+        height: 7%;
+        border-radius: 35.5px;
+        border: 2.1px solid #0d6efd;
+
+    }
+}
